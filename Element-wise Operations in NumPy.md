@@ -8,22 +8,23 @@ This works because it's an element-wise multiplication between two identically-s
 
 Here's the example from the video:
 
+```
+  a = np.array([[1,3],[5,7]])
+  a
+  # displays the following result:
+  # array([[1, 3],
+  #        [5, 7]])
 
-a = np.array([[1,3],[5,7]])
-a
-# displays the following result:
-# array([[1, 3],
-#        [5, 7]])
+  b = np.array([[2,4],[6,8]])
+  b
+  # displays the following result:
+  # array([[2, 4],
+  #        [6, 8]])
 
-b = np.array([[2,4],[6,8]])
-b
-# displays the following result:
-# array([[2, 4],
-#        [6, 8]])
-
-a + b
-# displays the following result
-#      array([[ 3,  7],
-#             [11, 15]])
+  a + b
+  # displays the following result
+  #      array([[ 3,  7],
+  #             [11, 15]])
 
 ```
+
